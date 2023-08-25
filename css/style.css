@@ -568,4 +568,36 @@ body {
    background-image: url(../images/background/bgkopi.png);
 }
 
+
+
+
+
+/* Menggunakan bootstrap */
+
+@font-face {
+    src: url(../fonts/poppins.woff2);
+    font-family: 'Poppins';
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+nav{
+    background-color: #997950;
+}
+
+nav a, .nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+a.btn{
+    --bs-btn-border-color: #795c32;
+    background-color: #795c32;
+    --bs-btn-color: white;
+    border-radius: 10px;
+}
+
+
 /* Kode CSS Selesai di sini */
